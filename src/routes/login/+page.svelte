@@ -7,7 +7,7 @@
 		await supabase.auth.signInWithOAuth({
 			provider: 'github',
 			options: {
-				redirectTo: 'http://localhost:5173/profile'
+				redirectTo: 'https://st.pipeline.co.id/profile'
 			}
 		});
 	}
